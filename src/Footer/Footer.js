@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 
@@ -63,39 +63,189 @@ const data = [
 const Footer = () => {
     return (
 
-        <Container sx={{ backgroundColor: '' }}>
-            <Grid container
-                justifyContent="center"
-                alignItems="center"
-                rowSpacing={6}
-                spacing={{ xs: 2, md: 2 }}>
+        < >
+            <br /> <br />
+            <Box>
+                <Grid container spacing={8} >
+                    <Grid item md={2}>
+                        <Grid container >
+                            <Grid item>
+                                <Typography >Monthly</Typography>
+                            </Grid>
+                            <Grid Grid item >
+                                <Typography>Cash-Flow (Cumulative)</Typography>
+                            </Grid>
+                            <Grid item>
+                                <Typography>Speculation (Cum.Scenario)</Typography>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item md={10}>
+                        <Grid container spacing={2} >
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item md={3} lg={1} >
+                                <Grid container  >
+                                    <Grid item>
+                                        <Typography> $ 1000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 5000</Typography>
+                                    </Grid>
+                                    <Grid item >
+                                        <Typography>$ 4000</Typography>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
 
-                {
-                    data.map((d, id) => <Grid item xs={12} md={4} >
-                        <Box  >
-                            <Typography variant='h6'>{d.category}</Typography>
-                            <Typography>$ {d.month.january}</Typography>
-                            <Typography>$ {d.month.february}</Typography>
-                            <Typography>$ {d.month.march}</Typography>
-                            <Typography>$ {d.month.april}</Typography>
-                            <Typography>$ {d.month.may}</Typography>
-                            <Typography>$ {d.month.june}</Typography>
-                            <Typography>$ {d.month.july}</Typography>
-                            <Typography>$ {d.month.august}</Typography>
-                            <Typography>$ {d.month.september}</Typography>
-                            <Typography>$ {d.month.october}</Typography>
-                            <Typography>$ {d.month.november}</Typography>
-                            <Typography>$ {d.month.december}</Typography>
-                        </Box>
-                    </Grid>)
-                }
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Box>
 
 
-
-            </Grid>
-
-
-        </Container>
+        </>
 
     );
 };
